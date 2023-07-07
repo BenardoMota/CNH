@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: #000;
+  }
+  
+  .wrapper{
+    width: 100%;
+    margin:0 auto;
+  }
+  
+  main{
+    display: block;
+    background-color: #FFF;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  section.module p{
+    margin-bottom: 40px;
+  }
+  
+  section.module:last-child{
+    margin-bottom: 0;
+  }
+  
+  section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  section.module.content{
+    padding: 40px 0;
+    background: #ece7d5;
+  }
+  
+  section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-reapet;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  }
+  
+  /* section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom,rgba(0,0,0,0) 40%, #000 100%);
+    background: -wekit-linear-gradient(to bottom,rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 40%, #000 100%);
+  } */
+  
+  section.module.parallax-1{
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9),  rgba(0, 0, 0, 0.5) ),   url("https://img.freepik.com/premium-photo/august-28-2019-brazil-man-holding-document-carteira-nacional-de-habilitaa-o-cnh-driver-s-license-attests-citizen-s-ability-drive-land-motor-vehicles_68852-58.jpg?w=740");
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+  
+  .parallax-1 h1{
+    color: #fff;
+    position: absolute;
+    top: 100px;
+  
+  }
+  
+  section.module.parallax-2{
+    background-image: url("https://cdn.autopapo.com.br/box/uploads/2020/08/25130508/mao-feminina-segura-carteira-nacional-de-habilitacao-cnh-732x488.jpg");
+  }
+  
+  section.module.parallax-3{
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2019/06/cnh.png?fit=900%2C471&quality=50&strip=all");
+  }
+  
+  section.module.parallaxh1{
+    color: #FFF;
+    text-allign: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+  }
+
+  #Guia-Eleitoral{
+    color: #fff;
+    width: 100%;
+    max-width: 760px;
+    text-shadow: 10px 10px 5px #000;
+  }
